@@ -15,7 +15,7 @@ let products = [
 ]
 
 let totalPrice = products.reduce((acc, curr) => {
-    acc = (curr.quantity * curr.price) + acc
+    acc = acc + (curr.quantity * curr.price)
     return acc
 }, 0)
 

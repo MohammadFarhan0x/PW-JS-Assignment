@@ -1,0 +1,17 @@
+*{
+    font-family: cursive;
+}
+
+.hidden{
+    display: none;
+}
+
+.reveal{
+    display: block;
+}
+
+#style{
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+}
